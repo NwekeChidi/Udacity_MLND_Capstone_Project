@@ -3,13 +3,15 @@
 [image1]: ./images/sample_dog_output.png "Sample Output"
 [image2]: ./images/vgg16_model.png "VGG-16 Model Layers"
 [image3]: ./images/vgg16_model_draw.png "VGG16 Model Figure"
+[image4]: ./images/Screenshot(65).png "Sample Output"
 
 
 ## Project Overview
 
-This is the Udacity Machine Learning capstone project! In this project, I built a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, your algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed.  
+This is the Udacity Machine Learning capstone project! In this project, I built a pipeline that can be used within a web or mobile app to process real-world, user-supplied images.  Given an image of a dog, this algorithm will identify an estimate of the canine’s breed.  If supplied an image of a human, the code will identify the resembling dog breed and apply dog filters to the image.
 
 ![Sample Output][image1]
+![Sample Output][image4]
 
 ## Project Instructions
 
@@ -51,7 +53,7 @@ The project was reviewed by a Udacity reviewer against the CNN project rubric.
 
 
 ## To test out the web app
-Firt copy the model artefacts saved as "model_transfer.pt" which you created by running the cells in the notebook to the "models" folder inside the "capstone_dog_app" folder.
+First copy the model artefacts saved as "model_transfer.pt" which you created by running the cells in the notebook to the "models" folder inside the "capstone_dog_app" folder.
 
 Launch your command prompt, then set up and activate a virtual environment
 
