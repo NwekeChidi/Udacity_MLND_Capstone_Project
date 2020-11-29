@@ -1,4 +1,4 @@
-This flask web app is accepts an image in .png, .jpeg or .jpg format, if dog(s) is detected in the image, it is classified according to its possible breed(s), if human face is detected, the closet dog breed is returned and dog filters are applied on the image.
+This flask web app accepts an image in .png, .jpeg or .jpg format, if dog(s) is detected in the image, it is classified according to its possible breed(s), if human face is detected, the closet dog breed is returned and dog filters are applied on the image.
 
 ## To test out the web app
 First launch your command prompt, then set up and activate a virtual environment
