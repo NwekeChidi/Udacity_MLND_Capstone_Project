@@ -54,6 +54,7 @@ The project was reviewed by a Udacity reviewer against the CNN project rubric.
 Firt copy the model artefacts saved as "model_transfer.pt" which you created by running the cells in the notebook to the "models" folder inside the "capstone_dog_app" folder.
 
 Launch your command prompt, then set up and activate a virtual environment
+
 __Using pip__
 ```
 	cd Udacity_Capstone_Project/capstone_dog_app
