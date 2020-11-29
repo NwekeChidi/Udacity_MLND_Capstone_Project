@@ -2,6 +2,7 @@ This flask web app accepts an image in .png, .jpeg or .jpg format, if dog(s) is 
 
 ## To test out the web app
 First launch your command prompt, then set up and activate a virtual environment
+
 __Using pip__
 ```
 	cd Udacity_Capstone_Project/Capstone_Dog_App
