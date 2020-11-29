@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>  
+<head>  
+	<title>success</title>  
+	<style>
+		.center {
+  			display: block;
+  			margin-left: auto;
+  			margin-right: auto;
+		}
+		.gfg {
+			width:auto; 
+            text-align:center; 
+            padding:20px;
+		}
+		img {
+			max-width:100%; 
+            height:auto; 
+		}
+	</style>
+</head>  
+<body style="background-image:url('https://i.pinimg.com/originals/62/6a/98/626a9883459865ee4cf5dc48abff9656.jpg'); background-size: 100%; height: 100vh;">  
+	<header>
+			<p style="font-size:40px; text-align: center; font-family: fantasy; color: azure;">File uploaded successfully!</p>  
+			</div>			
+			<p style="font-size:35px; text-align: center; color: thistle; font-family: cursive;">{{name}}</p>  
+		</div>
+	</header>
+	<div>
+		<div>
+			<p style="font-size:25px; text-align: center; font-family: 'Comic Sans MS', 'Comic Sans', cursive; color: whitesmoke;">{{greet}}</p>
+			<div class="gfg">
+				<p id="my-image"><img src="{{ img }}" alt="Your input image"></p>
+			</div>
+		</div>
+		<div style="background-color: green; border-radius: 10px;">
+			<p style="font-size:25px; text-align: center; font-family: Andale Mono, monospace; font-weight: bold; color: white;">{{out_1}}</p>
+			
+		</div>
+		
+	</div>
+	<div>
+			
+		<form action="https://github.com/NwekeChidi/Udacity_MLND_Capstone_Project">
+		<input style="margin: auto; margin-top: 15px; background-color:rgb(148, 152, 156); color: white; padding: 15px 32px; text-align: center; display: block; font-size: 16px; margin-bottom: 15px;" type = "submit" value="GitHub">  
+		</form>
+
+		<form action="{{ url_for('info')}}" method="POST">
+		<input style="margin: auto; margin-top: 15px; background-color:rgb(172, 175, 179); color: white; padding: 15px 32px; text-align: center; display: block; font-size: 16px; margin-bottom: 15px;" type = "submit" value="Source Code">  
+		</form>
+	</div>
+
+</body>  
+</html>  
