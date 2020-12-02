@@ -84,8 +84,7 @@ def success():
         breed = breed_predictor.predict_breed(img_path=img_path, model=dog_model)
         txt1, txt2 = detect_image(img_path=img_path, dog_model=vgg_model,
                                 model=dog_model, face_cascade=face_model, breed=breed)
-		#result = predict_image(img_path, model)
-		#txt = result
+	
         final_text = "Okie Dokey! Let's see what breed we have..."
         return render_template("success.html", name=final_text, greet=txt1, img=img_filename, out_1=txt2)
 
